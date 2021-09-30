@@ -23,7 +23,7 @@ HTML & Javascript based Features
 The details pertaining to these features are mentioned in the URL Feature Extraction.ipynb.Open In Colab
 
 So, all together 17 features are extracted from the 10,000 URL dataset and are stored in '5.urldata.csv' file in the DataFiles folder.
-The features are referenced from the https://www.unb.ca/cic/datasets/url-2016.html
+https://www.kaggle.com/waawerufidelis/phishing-detection?select=5.urldata.csv 
 
 Models & Training
 Before stating the ML model training, the data is split into 80-20 i.e., 8000 training samples & 2000 testing samples. From the dataset, it is clear that this is a supervised machine learning task. There are two major types of supervised machine learning problems, called classification and regression.
@@ -36,10 +36,6 @@ Multilayer Perceptrons
 XGBoost
 Support Vector Machines
 All these models are trained on the dataset and evaluation of the model is done with the test dataset. The elaborate details of the models & its training are mentioned in Phishing Website Detection_Models & Training.ipynbOpen In Colab
-
-Presentation
-The short video presentaion for this project is @ https://youtu.be/I1refTZp-pg.
-The slide presentaion used in this video is Phishing Website Detection by Machine Learning Techniques Presentation.pdf
 
 End Results
 From the obtained results of the above models, XGBoost Classifier has highest model performance of 86.4%. So the model is saved to the file 'XGBoostClassifier.pickle.dat'
